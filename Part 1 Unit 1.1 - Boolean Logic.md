@@ -42,8 +42,14 @@ NOT(x OR y) = NOT(x) AND NOT(y)
 
 Закон идемпотентности:
 
-NOT((NOT(x) AND NOT(y)) AND NOT(z)) = NOT(NOT(x) AND NOT(y))
+x AND x = x
+
+x OR x = x
+
+NOT( ( NOT(x) AND NOT(x) ) AND NOT(y) ) = NOT( NOT(x) AND NOT(y) )
 
 Закон двойного отрицания:
+
+NOT(NOT(x)) = x
 
 NOT(NOT(x)) OR NOT(NOT(y)) = x OR y
